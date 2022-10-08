@@ -23,8 +23,54 @@ ul {
 list-style: none
  }
 
+ * {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  
+.header {
+    width: 1200px;
+    display: block;
+    
+}
+.container-logo{
+    display: flex;
+    padding: 24px 93px 25px 215px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+
 .logo {
  font-family: 'Raleway', 'sans-serif';
+
+ 
+ }
+ .header-link {
+    display: flex;
+    padding: 32px 344px 32px 93px;
+    gap: 50px;
+    align-items: center;
+
 
  }
 
