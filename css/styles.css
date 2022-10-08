@@ -47,7 +47,7 @@ ul {
   }
   
 .header {
-    width: 1200px;
+    width: 1600px;
     display: block;
     
 }
@@ -71,9 +71,14 @@ ul {
     gap: 50px;
     align-items: center;
 
-
- }
-
+}
+.nav-contacts {
+    display: flex;
+    align-items: center;
+    padding: 32px 0px 32px 0px;
+    gap: 50px;
+    margin-right: auto;
+}
 .logo-nav {
     color: #2196F3;
     font-style: normal;
