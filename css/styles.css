@@ -187,10 +187,7 @@ ul {
     text-align: center;
     margin: 0 auto;
 
-    
-    
-
-    
+       
 }
 .order-service-button:hover, .order-service-button:focus  {
     background-color: #188CE8;
@@ -207,6 +204,17 @@ ul {
       clip-path: inset(50%);
       margin: -1px;
 }
+.our-advantages-container {
+      display: flex;
+      flex-direction: row;
+
+         
+
+}
+.our-advantages-menu [
+    
+]
+
 .our-advantages {
     font-family: 'Roboto';
     font-style: normal;
