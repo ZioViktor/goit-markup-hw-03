@@ -40,33 +40,28 @@ ul {
 }
 
 .header {
-    width: 1200px;
+    width: 1600px;
     padding: 24px 0 25px;
-    
+        
 }
-.container-nav {
+.container {
     width: 100%;
     max-width: 1200px;
-   
+    margin: 0 auto;
+    justify-content: space-between;
 }
-.container-logo{
-    display: flex;
-    padding: 24px px 25px 215px;
-    
 
-}
-.header-container {
+.container-nav {
     display: flex;
     align-items: center;
-    margin: 0 auto;
-    padding: 24px px 25px 215px;
+      
 }
-.header-nav{
+
+.header-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 215px
- 
+     
 }
 
 .logo {
@@ -76,17 +71,18 @@ ul {
  }
  .header-link {
     display: flex;
-    padding: 32px 344px 32px 93px;
-    gap: 50px;
-    align-items: center;
+    gap: 40px;
+    padding-left: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 }
 .nav-contacts {
     display: flex;
     align-items: center;
-    padding: 32px 0px 32px 0px;
     gap: 50px;
-    margin-right: auto;
+    padding-left: 344px;
+    padding-right: auto;
 }
 .logo-nav {
     color: #2196F3;
@@ -147,11 +143,14 @@ ul {
     background-color: #2F303A;
     
 }
-.about-us-main {
+.about-us-container {
     display: flex;
-    margin: auto;
-
-
+    flex-direction: column;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    gap: 30px;
+    
 }
 .about-us-content {
     color: #FFFFFF;
@@ -163,11 +162,10 @@ ul {
     line-height: 60px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    display: flex;
-    padding: 200px 452px 280px 452px;
-    align-items: center;
-    justify-content: space-between;
-
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0 200px;
+ 
 }
 
 .order-service-button {
@@ -186,6 +184,11 @@ ul {
     line-height: 30px;
     letter-spacing: 0.06em;
     cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+
+    
+    
 
     
 }

@@ -19,47 +19,51 @@
   </head>
   <body>
     <header class="header">
-      <div class="container-nav">
-        <nav>
-          <div class="container-logo">
+      <div class="container">
+        <div class="container-nav">
+          <nav class="header-nav">
             <a class="logo" href="./index.html"
               ><span class="logo-nav">Web</span
               ><span class="logo-nav-accent">Studio</span></a
             >
-           <ul class="header-link">
+            <ul class="header-link">
+              <li>
+                <a class="nav-link-current" href="./index.html">Студія</a>
+              </li>
+              <li>
+                <a class="nav-link-not-current" href="./portfolio.html"
+                  >Портфоліо</a
+                >
+              </li>
+              <li><a class="nav-link-not-current" href="#">Контакти</a></li>
+            </ul>
+          </nav>
+          <ul class="nav-contacts">
             <li>
-              <a class="nav-link-current" href="./index.html">Студія</a>
-            </li>
-            <li>
-              <a class="nav-link-not-current" href="./portfolio.html"
-                >Портфоліо</a
+              <a class="nav-link-email-contact" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
               >
             </li>
-            <li><a class="nav-link-not-current" href="#">Контакти</a></li>
+            <li>
+              <a class="nav-link-tel-contact" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
           </ul>
-        </nav>
-        <ul class="nav-contacts">
-          <li>
-            <a class="nav-link-email-contact" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="nav-link-tel-contact" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </div>
+        </div>
       </div>
     </header>
     <main>
       <section class="about-us">
-        <div class="about-us-main">
-          <h1 class="about-us-content">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="order-service-button">
-            Замовити послугу
-          </button>
+        <div class="container">
+          <div class="about-us-container">
+            <h1 class="about-us-content">
+              Ефективні рішення для вашого бізнесу
+            </h1>
+            <button type="button" class="order-service-button">
+              Замовити послугу
+            </button>
+          </div>
         </div>
       </section>
       <section>
