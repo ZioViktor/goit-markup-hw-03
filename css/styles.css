@@ -174,11 +174,6 @@ img {
     
 }
 .about-us-container {
-    display: block;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 200px;
-    gap: 30px;
     
 }
 .about-us-content {
