@@ -122,7 +122,8 @@ img {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    padding: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .nav-link-not-current {
@@ -133,7 +134,8 @@ img {
     line-height: 16px;
     letter-spacing: 0.02em;
     cursor: pointer;
-    padding: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     
     
 }
