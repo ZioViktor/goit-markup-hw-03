@@ -80,6 +80,8 @@ img {
 
 .logo-header {
  font-family: 'Raleway', 'sans-serif';
+ padding: 24px 0px;
+ margin-right: 93px;
  
 
  }
@@ -91,9 +93,6 @@ img {
  .header-link {
     display: flex;
     gap: 40px;
-    padding-left: 93px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
 }
 .nav-contacts {
@@ -118,23 +117,23 @@ img {
 }
 .nav-link-current {
     color: #2196F3;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    padding: 24px;
 }
 
 .nav-link-not-current {
     color: #212121;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     cursor: pointer;
+    padding: 24px;
     
     
 }
