@@ -260,10 +260,13 @@ img {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-/* or 171% */
     letter-spacing: 0.03em;
     color: #757575;
+    margin-right: 30px;
 
+}
+.our-advantages-description:not(:last-child) {
+    margin-right: 30px;
 }
 .title-head {
     background-color: #fff;
