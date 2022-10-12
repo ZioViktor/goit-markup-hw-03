@@ -367,6 +367,12 @@ img {
     color: #FFFFFF
     
 }
+.adress-menu {
+    margin-bottom: 10px;
+}
+.adress-menu:not(:last-child) {
+    margin-bottom: 60px;
+}
 .address-street {
     font-family: 'Roboto';
     font-style: normal;
