@@ -8,6 +8,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--title-text-color);
+    
 }
 a {
 text-decoration: none;
@@ -23,10 +24,14 @@ ul {
 list-style: none
  }
 
- * {
+html {
     box-sizing: border-box;
 }
-
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
 h1,
 h2,
